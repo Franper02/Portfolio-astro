@@ -1,6 +1,5 @@
 import type React from "react";
 import type { WorkCardProps } from "../../types";
-import eyeIcon from "../../images/eye-icon.svg";
 
 const WorkCard : React.FC<WorkCardProps> = (props : WorkCardProps) => {
     const {title, description, image, backgroundColor, textColor, github, live} = props;
