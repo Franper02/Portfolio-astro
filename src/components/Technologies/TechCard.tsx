@@ -7,18 +7,18 @@ const TechCard : React.FC<TechCardProps> = (props : TechCardProps) => {
         <article className="mx-auto mb-8 items-center justify-evenly rounded-lg border-2 py-8 font-author dark:bg-white dark:text-[#111] w-full">
             <div className="mx-auto w-11/12">
                 <div className="mx-auto mb-6 w-11/12 text-center xl:w-8/12">
-                    <h1 className="mb-1 text-3xl font-medium opacity-80">
+                    <h1 className="mb-1 text-5xl font-medium opacity-80 py-4 lg:text-3xl lg:py-0">
                         {title}
                     </h1>
-                    <h2 className="text-md font-medium leading-snug opacity-60 lg:text-lg">
+                    <h2 className="text-3xl font-medium leading-snug opacity-60 pb-4 lg:text-lg lg:pb-0">
                         {description}
                     </h2>
                     <div className="flex">
                     {techs?.map((tech, index) => {
                         return(
                         <div className="mx-auto mt-4 flex justify-center" key={index}>
-                            <div className=" mx-3 flex h-[60px] w-[60px] flex-col items-center justify-center">
-                                <img src={tech.image} width="50" height="50" decoding="async" data-nimg="1" className="max-h-[45px] min-h-[45px] min-w-[45px] max-w-[45px]" loading="lazy" style={{color: "transparent"}} />
+                            <div className="mx-3 flex h-32 w-32 flex-col items-center justify-center lg:w-12 lg:h-12">
+                                <img src={tech.image} className="w-32 h-32 lg:w-14 lg:h-14" loading="lazy" style={{color: "transparent"}} />
                                 <p className="font-medium capitalize opacity-90">
                                     {tech.name}
                                 </p>

@@ -10,10 +10,10 @@ import AutoFlow from "../../images/autoflow-logo.svg";
 const WorkSection = () => {
     return(
         <section className="mx-auto mt-12 flex w-11/12 max-w-[90rem] flex-col py-8 font-author">
-                <h1 className="text-white mb-1 text-center font-author text-3xl font-medium opacity-80 dark:opacity-100 lg:text-4xl">
+                <h1 className="text-white mb-1 text-center font-author text-6xl font-medium opacity-80 dark:opacity-100 lg:text-4xl">
                     Work
                 </h1>
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+            <div className="mt-10 grid grid-cols-1 gap-4 lg:grid-cols-2">
                 <WorkCard
                     title="AutoFlow"
                     description="I currently work as a Front-end developer in AutoFlow, a Saas company that offers a platform to car dealerships with different tools for the customer relationship management, i work in a team of 4 developers, we use React, Next.js, Tailwind CSS, and Typescript to build the frontend of the platform, itegrating a Django backend through GraphQL queries and mutations."
