@@ -10,7 +10,7 @@ import AutoFlow from "../../images/autoflow-logo.svg";
 const WorkSection = () => {
     return(
         <section className="mx-auto mt-12 flex w-11/12 max-w-[90rem] flex-col py-8 font-author">
-                <h1 className="text-white mb-1 text-center font-author text-6xl font-medium opacity-80 dark:opacity-100 lg:text-4xl">
+                <h1 className="text-white mb-1 text-center font-author text-3xl font-medium opacity-80 dark:opacity-100 lg:text-4xl">
                     Work
                 </h1>
             <div className="mt-10 grid grid-cols-1 gap-4 lg:grid-cols-2">

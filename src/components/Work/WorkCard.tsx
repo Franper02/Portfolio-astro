@@ -6,7 +6,7 @@ const WorkCard : React.FC<WorkCardProps> = (props : WorkCardProps) => {
     return(
         <article className="my-2 flex w-full rounded-md shadow-2xl dark:border-2 py-14 font-author lg:my-8 lg:items-center lg:justify-around" style={{backgroundColor: backgroundColor}}>
             <div className="mx-auto flex w-11/12 flex-col justify-center lg:w-7/12">
-                <h1 className="mb-3 text-3xl font-medium opacity-90 " style={{color: textColor}}>
+                <h1 className="mb-1 text-3xl font-medium opacity-80" style={{color: textColor}}>
                     {title}
                 </h1>
                 <p className="text-sm font-medium leading-normal max-w-[290px] opacity-80 lg:text-md" style={{color: textColor}}>
