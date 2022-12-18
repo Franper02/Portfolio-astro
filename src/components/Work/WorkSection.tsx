@@ -4,7 +4,7 @@ import MakeAHabitLogo from "../../images/makeahabit-logo.svg";
 import CryptoWallets from "../../images/cryptowallets-logo.svg";
 import Recorcholis from "../../images/recorcholis-logo.png";
 import Letstradecards from "../../images/letstradecards-logo.jpg";
-import Audivio from "../../images/Audivio-logo.svg";
+import Audivio from "../../images/audivio-logo.svg";
 import AutoFlow from "../../images/autoflow-logo.svg";
 
 const WorkSection = () => {
