@@ -4,7 +4,7 @@ import type { WorkCardProps } from "../../types";
 const WorkCard : React.FC<WorkCardProps> = (props : WorkCardProps) => {
     const {title, description, image, backgroundColor, textColor, github, live} = props;
     return(
-        <article className="my-2 flex w-full rounded-md shadow-2xl py-14 font-author lg:my-8 lg:items-center lg:justify-around" style={{backgroundColor: backgroundColor}}>
+        <article className="my-2 flex w-full rounded-md shadow-2xl border-2 py-14 font-author lg:my-8 lg:items-center lg:justify-around" style={{backgroundColor: backgroundColor}}>
             <div className="mx-auto flex w-11/12 flex-col justify-center lg:w-7/12">
                 <h1 className="mb-1 text-3xl font-medium opacity-80" style={{color: textColor}}>
                     {title}

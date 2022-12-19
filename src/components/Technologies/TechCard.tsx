@@ -4,7 +4,7 @@ import type { TechCardProps } from "../../types";
 const TechCard : React.FC<TechCardProps> = (props : TechCardProps) => {
     const {title, description, techs} = props;
     return(
-        <article className="mx-auto mb-8 items-center justify-evenly rounded-lg border-2 py-8 font-author w-full">
+        <article className="mx-auto mb-8 items-center justify-evenly rounded-lg border-2 py-8 font-author bg-white text-[#111] w-full">
             <div className="mx-auto w-11/12">
                 <div className="mx-auto mb-6 w-11/12 text-center xl:w-8/12">
                     <h1 className="mb-1 text-3xl font-medium opacity-80">
