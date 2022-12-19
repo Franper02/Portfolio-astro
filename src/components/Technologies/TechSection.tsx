@@ -4,7 +4,7 @@ import TechCard from "./TechCard";
 export default function TechSection() {
     return(
         <section className="mx-auto mb-4 w-11/12 max-w-[90rem] text-center"> 
-            <h1 className="text-white mb-1 text-center font-author text-3xl font-medium opacity-80 dark:opacity-100 lg:text-5xl">
+            <h1 className="text-white mb-1 text-center font-author text-3xl font-medium opacity-80 lg:text-5xl">
                 Technologies
             </h1>
             <div className="mx-auto mt-10 grid max-w-[90rem] grid-cols-1 gap-4 lg:grid-cols-2">
